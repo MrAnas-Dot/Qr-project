@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import messagebox, filedialog
 from PIL import Image, ImageTk
 
-# Function to generate QR code
+# Function to generate QR
 def generate_qr():
     url = url_entry.get()
     if not url:
